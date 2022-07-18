@@ -1,12 +1,15 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
 
-console.log(Grid)
+// import Products from './Components/products/Products.jsx'
+// import Navbar from './Components/Navbar/Navbar.jsx'
+import{ Products,Navbar} from './Components'
+
 const App = () => {
   return (
     <div>
-  
-        son nguyen
+       <Navbar />
+       <Products />
+       
     </div>
   )
 }
